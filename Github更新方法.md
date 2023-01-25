@@ -31,3 +31,12 @@ git init
 git remote add origin https://github.com/vvision0/Github-Using-Method.git
 git pull --rebase origin main
 ```
+
+## 如果要上传新文件，首先将文件添加到缓存区，然后将缓存区的文件添加到本地仓库，然后将本地仓库推送到远程仓库
+
+```
+git add xx.xx // 添加到缓存区
+git commit -m "备注" // 添加到本地仓库
+git push -u origin master // 推送到远程仓库
+```
+
